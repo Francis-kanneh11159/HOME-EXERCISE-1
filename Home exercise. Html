@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me & My Favorites</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; background-color: #fff; color: #000;">
+
+  <!-- Navigation Bar -->
+  <nav style="background-color: #e5e5f7; border-bottom: 3px solid #555; padding: 10px;">
+    <a href="#" style="margin-right: 15px; text-decoration: none; color: #000;">Home</a>
+    <a href="#" style="margin-right: 15px; text-decoration: none; color: #000;">About</a>
+    <a href="#" style="text-decoration: none; color: #000;">Favorites</a>
+  </nav>
+
+  <main style="padding: 20px; max-width: 700px; margin: auto;">
+
+    <h1 style="color: #1a1aff;">About Me & My Favorites</h1>
+    <p>Welcome! This simple page shows basic HTML structure and inline styling. Notice how the word 
+      <span style="color: rgb(230, 20, 60); font-weight: bold;">highlighted</span> 
+      uses RGB color inside a paragraph.
+    </p>
+
+    <h2>About Me</h2>
+    <div style="border: 1px solid #ddd; padding: 15px; border-radius: 8px; background-color: #fafafa;">
+      <p>👋 <strong>Hi, I'm Alex Student</strong></p>
+      <p>I'm learning web development and I enjoy turning ideas into simple webpages.<br>
+      Fun fact: I can juggle three oranges! 🍊🍊🍊</p>
+      <p>I built this demo with a focus on the basics: headings, paragraphs, lists, and inline styles. 
+      My goal is to practice and then create a unique page that reflects my personality. 
+      I believe consistency matters—so I’ll keep building a little every day.</p>
+    </div>
+
+    <h2>My Hobbies</h2>
+    <p>Here are a few things I enjoy when I’m not coding:</p>
+    <ul>
+      <li>Drawing and <strong>digital sketching</strong></li>
+      <li>Playing football with friends</li>
+      <li>Listening to podcasts</li>
+      <li>Reading short tech articles</li>
+    </ul>
+
+    <h2>Top 3 Goals</h2>
+    <ol>
+      <li>Build 5 practice webpages and share screenshots</li>
+      <li>Learn more CSS for layout and spacing</li>
+      <li>Create a simple one-page portfolio</li>
+    </ol>
+
+    <h2>Quick Glossary</h2>
+    <p><strong>HTML</strong><br>
+      The structure of a webpage; it uses elements and tags.
+    </p>
+    <p><strong>CSS</strong><br>
+      Styles that control how HTML content looks (colors, spacing, etc.).
+    </p>
+    <p><strong>RGB</strong><br>
+      A color model using Red, Green, and Blue values (0–255), e.g. 
+      <span style="color: rgb(230, 20, 60);">rgb(230, 20, 60)</span>.
+    </p>
+
+    <h2>My Favorites</h2>
+    <p>Favorite color (by name): <span style="color: blue; font-weight: bold;">blue</span>.</p>
+    <p>Favorite coding snack: crispy apples. Favorite study trick: short focused sessions with a quick stretch between them.</p>
+
+    <h2>Contact</h2>
+    <p>Reach me at: <a href="mailto:alex.student@example.com" style="color: #000; font-weight: bold;">alex.student@example.com</a><br>
+    I’m open to feedback and tips!</p>
+
+  </main>
+
+  <footer style="background-color: #e5e5f7; padding: 10px; text-align: center; font-size: 0.9em;">
+    © 2025 Demo Page — Built with basic HTML and the <em>style</em> attribute only.
+  </footer>
+
+</body>
+</html>
